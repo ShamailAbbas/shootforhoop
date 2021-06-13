@@ -3,13 +3,13 @@ version: 0.2
 phases:
   install:    
     commands:
-      - echo Installing Web dependencies
+      - echo Installing Web dependencies..........
       - echo Installing Nodejs
-      - curl -sL https://deb.nodesource.com/setup_14.x | sudo -E bash -
-      - sudo apt-get install -y nodejs
-      - echo Installing nodemodules
+      - curl -sL https://deb.nodesource.com/setup_12.x | bash -
+      - apt install -y nodejs
+      - echo Installing nodemodules..........
       - npm install --silent
-      - echo Finished installing Web dependencies
+      - echo Finished installing Web dependencies.........
   build:
     commands:
       - echo Building artifacts.....
