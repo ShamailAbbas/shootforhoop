@@ -19,6 +19,7 @@ const Nav = () => {
           <h4>Services</h4>
           <h4>portfolio</h4>
           <h4>contact</h4>
+          <h4>recent projects</h4>
         </div>
       </div>
     </>
